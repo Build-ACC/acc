@@ -65,7 +65,28 @@
                         <div class="modal-content">
                             <span class="close">&times;</span>
                             <p style="color: black;  ">Great! let's get you set up</p>
-                            <form 
+
+                            <div id="revue-embed">
+                                <form action="https://www.getrevue.co/profile/dibri/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
+                                <div class="revue-form-group">
+                                <label for="member_first_name">First name</label>
+                                <input class="revue-form-field" placeholder="First name..." type="text" name="member[first_name]" id="member_first_name">
+                                </div>
+                                <div class="revue-form-group">
+                                <label for="member_last_name">Last name</label>
+                                <input class="revue-form-field" placeholder="Last name..." type="text" name="member[last_name]" id="member_last_name">
+                                </div>
+                                <div class="revue-form-group">
+                                <label for="member_email">Email address</label>
+                                <input class="revue-form-field" placeholder="Your email address..." type="email" name="member[email]" id="member_email">
+                                </div>
+                                <div class="revue-form-actions">
+                                <input type="submit" value="Done" name="member[subscribe]" id="member_submit">
+                                </div>
+                                <div class="revue-form-footer">By subscribing, you agree to join our mailing list.</div>
+                                </form>
+                            </div>  
+                            <!-- <form 
                             action="https://formspree.io/f/mdopgwlg"
                             method="POST">
                             <label for="full-name">Full Name</label>
@@ -86,11 +107,9 @@
                             <br>
                             <br>
                             <br>
-                            
-                            <!-- your other form fields go here -->
                           
                             <button type="submit">Done</button>
-                          </form>
+                          </form> -->
 
                         </div>
                     
@@ -133,7 +152,7 @@
             <div> 
                 <a class="tooltip" href="404.html" data-title="Twitter"><i class="fa fa-twitter"></i><span>Twitter</span></a>
                 
-                <a class="tooltip" href="404.html" data-title="LinkedIn"><i class="fa fa-linkedin"></i><span>LinkedIn</span></a>
+                <a class="tooltip" href="https://www.linkedin.com/company/69250695/" data-title="LinkedIn"><i class="fa fa-linkedin"></i><span>LinkedIn</span></a>
                 
                 <a class="tooltip" href="404.html" data-title="Instagram"><i class="fa fa-instagram"></i><span>Instagram</span></a>
             </div>
